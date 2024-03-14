@@ -1,7 +1,13 @@
-computer_choice = 'rock' , 'paper' , 'python'
-user_choice = input()
+computer_choice = 'rock'
+user_choice = input("Enter rock, paper, or python:\n")
+
 if computer_choice == user_choice:
-    print("TIE")
+    print('TIE')
+elif user_choice = 'rock' computer_choice = 'python'
+    print('WIN')
+elif user_choice = 'paper' computer_choice = 'rock'
+    print('WIN')
+elif user_choice = 'python' computer_choice = 'psper'
+    print('WIN')
 else:
-  print('You lose :( Computer wins :D')
-  
+    print('You lose :( Computer wins :D')
